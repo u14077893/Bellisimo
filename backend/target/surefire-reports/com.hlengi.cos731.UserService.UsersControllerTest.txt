@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.hlengi.cos731.UserService.UsersControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.hlengi.cos731.UserService.UsersControllerTest
+testFindAll(com.hlengi.cos731.UserService.UsersControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.UserService.UsersController.findAll(UsersController.java:29)
+	at com.hlengi.cos731.UserService.UsersControllerTest.testFindAll(UsersControllerTest.java:62)
+
+testProcess(com.hlengi.cos731.UserService.UsersControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.UserService.UsersController.process(UsersController.java:20)
+	at com.hlengi.cos731.UserService.UsersControllerTest.testProcess(UsersControllerTest.java:48)
+
+testFetchDataByEmail(com.hlengi.cos731.UserService.UsersControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.UserService.UsersController.fetchDataByEmail(UsersController.java:47)
+	at com.hlengi.cos731.UserService.UsersControllerTest.testFetchDataByEmail(UsersControllerTest.java:92)
+
+testFindById(com.hlengi.cos731.UserService.UsersControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.UserService.UsersController.findById(UsersController.java:39)
+	at com.hlengi.cos731.UserService.UsersControllerTest.testFindById(UsersControllerTest.java:77)
+

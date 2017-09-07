@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.hlengi.cos731.PromotionService.PromotionsControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.hlengi.cos731.PromotionService.PromotionsControllerTest
+testFindAll(com.hlengi.cos731.PromotionService.PromotionsControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.PromotionService.PromotionsController.findAll(PromotionsController.java:46)
+	at com.hlengi.cos731.PromotionService.PromotionsControllerTest.testFindAll(PromotionsControllerTest.java:96)
+
+testProcess(com.hlengi.cos731.PromotionService.PromotionsControllerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.PromotionService.PromotionsController.process(PromotionsController.java:21)
+	at com.hlengi.cos731.PromotionService.PromotionsControllerTest.testProcess(PromotionsControllerTest.java:49)
+
+testFindById(com.hlengi.cos731.PromotionService.PromotionsControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.PromotionService.PromotionsController.findById(PromotionsController.java:56)
+	at com.hlengi.cos731.PromotionService.PromotionsControllerTest.testFindById(PromotionsControllerTest.java:111)
+
+testAddPromotion(com.hlengi.cos731.PromotionService.PromotionsControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.PromotionService.PromotionsController.addPromotion(PromotionsController.java:30)
+	at com.hlengi.cos731.PromotionService.PromotionsControllerTest.testAddPromotion(PromotionsControllerTest.java:67)
+
+testRemovePromotion(com.hlengi.cos731.PromotionService.PromotionsControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.PromotionService.PromotionsController.removePromotion(PromotionsController.java:37)
+	at com.hlengi.cos731.PromotionService.PromotionsControllerTest.testRemovePromotion(PromotionsControllerTest.java:82)
+
+testFetchDataByProduct(com.hlengi.cos731.PromotionService.PromotionsControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.hlengi.cos731.PromotionService.PromotionsController.fetchDataByProduct(PromotionsController.java:64)
+	at com.hlengi.cos731.PromotionService.PromotionsControllerTest.testFetchDataByProduct(PromotionsControllerTest.java:126)
+
