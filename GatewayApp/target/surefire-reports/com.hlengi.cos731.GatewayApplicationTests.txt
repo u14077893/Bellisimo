@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.hlengi.cos731.GatewayApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.54 sec - in com.hlengi.cos731.GatewayApplicationTests
